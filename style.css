@@ -14,12 +14,42 @@ html {
 }
 
 body {
-	margin: 0;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background-color: SeaShell;
+	margin: auto;
 	padding: 50px;
 	font: 18px/1.5 sans-serif;
 	background-color: white;
 	color: black;
 }
+
+.lion {
+	background-color: ivory;
+	padding: 50px;
+	border: dashed RosyBrown 2px;
+}
+
+.button {
+	width: 15%;
+	background-color: RosyBrown;
+	border: none;
+	color: black;
+	padding: 16px 32px;
+	text-align: center;
+	font-size: 16px;
+	margin: 4px 2px;
+	opacity: 0.6;
+	transition: 0.3s;
+	display: inline-block;
+	text-decoration: none;
+	cursor: pointer;
+  }
+  
+.button:hover {opacity: 1}
+
 
 h1,
 h2,
@@ -120,4 +150,8 @@ li {
 	background-color: cyan;
 	color: black;
 	border-color: blue;
+}
+
+.red {
+	color: red;
 }
